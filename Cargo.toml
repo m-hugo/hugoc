@@ -7,6 +7,6 @@ edition = "2021"
 
 [dependencies]
 #chumsky = {version="1.0.0-alpha.3", features = ["nightly", "memoization"]}
-#chumsky = { git = "https://github.com/zesterer/chumsky",  branch="left-recursive-checks", features = ["nightly", "memoization"] }
-chumsky = { git = "https://github.com/zesterer/chumsky", features = ["nightly", "memoization"] }
+chumsky = { git = "https://github.com/zesterer/chumsky",  branch="left-recursive-checks", features = ["nightly", "memoization"] }
+#chumsky = { git = "https://github.com/zesterer/chumsky", features = ["nightly", "memoization"] }
 ariadne = "0.2"

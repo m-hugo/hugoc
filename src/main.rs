@@ -53,7 +53,7 @@ impl<'a> Expr<'a> {
                 string,
                 ident,
                 num.clone(),
-            )).memoised() //memoised memoized
+            )).memoized() //memoised memoized
             .boxed()
         })
         .padded()
