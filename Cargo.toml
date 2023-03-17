@@ -1,0 +1,12 @@
+[package]
+name = "hl-chumsky"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#chumsky = {version="1.0.0-alpha.3", features = ["nightly", "memoization"]}
+#chumsky = { git = "https://github.com/zesterer/chumsky",  branch="left-recursive-checks", features = ["nightly", "memoization"] }
+chumsky = { git = "https://github.com/zesterer/chumsky", features = ["nightly", "memoization"] }
+ariadne = "0.2"
